@@ -1,0 +1,66 @@
+/* Universal Stuff */
+
+html, body {
+  min-height: 100%;
+  background-color: #F2F2F2;
+}
+
+h1, h2, h3, p {
+  font-family: "Lato", sans-serif;
+}
+
+/* Navigation */
+.navi {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: 900;
+  color: rgb(112, 112, 112);
+  left: 0px;
+  right: 0px;
+
+}
+
+.navi li {
+  display: inline-block;
+}
+
+.navi a {
+  display: block;
+  color: inherit;
+  padding: 10px 20px;
+}
+
+a.home {
+  color: inherit;
+  border: solid;
+}
+
+
+/* Main Content Section */
+.main{
+  box-sizing: border-box;
+  padding: 1px 15px;
+  margin: 8px auto;
+  max-width: 95%;
+  max-height: 100%;
+  min-width: 500px;
+  min-height: 55%;
+  margin-top: 70px;
+}
+
+.main li{
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: rgb(112, 112, 112);
+
+}
+
+.main h3{
+  font-family: "Lato", sans-serif;
+  color: rgb(112, 112, 112);
+
+}

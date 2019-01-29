@@ -50,6 +50,8 @@ a.home {
   min-width: 500px;
   min-height: 55%;
   margin-top: 70px;
+  font-family: "Lato", sans-serif;
+  color: rgb(112, 112, 112);
 }
 
 .main li{
@@ -62,5 +64,24 @@ a.home {
 .main h3{
   font-family: "Lato", sans-serif;
   color: rgb(112, 112, 112);
+}
 
+
+.content {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: rgb(112, 112, 112);
+}
+
+
+.content li{
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: rgb(112, 112, 112);
+
+}
+
+.content h3{
+  font-family: "Lato", sans-serif;
+  color: rgb(112, 112, 112);
 }

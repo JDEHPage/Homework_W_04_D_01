@@ -25,7 +25,15 @@ end
 
 
 get '/RPSgame/:player1/:player2' do
-  game = RPSgame.new(params[:player1], params[:player2])
+  game = RPSgame.new(params[:player1].capitalize, params[:player2].capitalize)
   @game_outcome = game.sign_comparison()
+  erb(:result)
+end
+
+get '/:player1/random' do
+  @player1 = params[:player1].capitalize
+  @player2 = RPSgame.random_choice.capitalize
+
+  @game_outcome = RPSgame.new(@player1, @player2).sign_comparison
   erb(:result)
 end
